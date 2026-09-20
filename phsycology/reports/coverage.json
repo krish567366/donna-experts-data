@@ -1,0 +1,202 @@
+{
+  "generated_at": "2026-09-20T18:49:38.521631+00:00",
+  "manifest": "C:\\Users\\Krishna\\Documents\\Codex\\2026-09-20\\ac\\repo\\phsycology\\psychology_sources.csv",
+  "taxonomy": "C:\\Users\\Krishna\\Documents\\Codex\\2026-09-20\\ac\\repo\\phsycology\\config\\constructs.csv",
+  "summary": {
+    "manifest_rows": 8282,
+    "acquired_documents": 0,
+    "acquisition_percent": 0.0,
+    "taxonomy_domains": 15,
+    "taxonomy_constructs": 25,
+    "issue_groups": 2
+  },
+  "coverage": {
+    "by_domain": {
+      "trust_cooperation": 2000,
+      "persuasion": 1500,
+      "power_status": 1062,
+      "emotion": 1000,
+      "interpersonal": 1000,
+      "deception": 500,
+      "identity": 500,
+      "culture": 492,
+      "fairness": 228
+    },
+    "by_construct": {
+      "REACTANCE": 1000,
+      "RECIPROCITY": 1000,
+      "TRUST": 1000,
+      "POWER": 562,
+      "ANGER": 500,
+      "ANXIETY": 500,
+      "DECEPTION": 500,
+      "EMPATHY": 500,
+      "IDENTITY": 500,
+      "PERSUASION": 500,
+      "STATUS": 500,
+      "THEORY_OF_MIND": 500,
+      "FACE_SAVING": 492,
+      "FAIRNESS": 228
+    },
+    "by_license": {
+      "cc-by": 7555,
+      "public-domain": 561,
+      "cc-by-sa": 166
+    },
+    "by_access_status": {
+      "DISCOVERED": 8282
+    },
+    "by_retraction_status": {
+      "NOT_RETRACTED": 8282
+    },
+    "by_source_type": {
+      "article": 6978,
+      "review": 348,
+      "preprint": 271,
+      "dissertation": 203,
+      "book": 136,
+      "book-chapter": 130,
+      "conference-paper": 127,
+      "report": 24,
+      "editorial": 22,
+      "paratext": 14,
+      "book-review": 8,
+      "other": 8,
+      "data-paper": 4,
+      "reference-entry": 4,
+      "conference-abstract": 3,
+      "erratum": 1,
+      "peer-review": 1
+    },
+    "years": {
+      "by_year": {
+        "2021": 1009,
+        "2022": 896,
+        "2020": 822,
+        "2023": 821,
+        "2019": 632,
+        "2018": 488,
+        "2024": 485,
+        "2017": 445,
+        "2016": 433,
+        "2025": 428,
+        "2015": 347,
+        "2014": 280,
+        "2013": 277,
+        "2012": 190,
+        "2026": 170,
+        "2011": 111,
+        "2010": 85,
+        "2008": 60,
+        "2009": 59,
+        "2007": 50,
+        "2006": 38,
+        "2005": 29,
+        "2004": 22,
+        "2001": 14,
+        "1997": 11,
+        "2002": 11,
+        "2000": 9,
+        "1999": 8,
+        "2003": 8,
+        "1998": 7,
+        "1992": 3,
+        "1996": 3,
+        "1970": 2,
+        "1972": 2,
+        "1978": 2,
+        "1988": 2,
+        "1989": 2,
+        "1993": 2,
+        "1994": 2,
+        "1891": 1,
+        "1911": 1,
+        "1917": 1,
+        "1944": 1,
+        "1963": 1,
+        "1964": 1,
+        "1969": 1,
+        "1975": 1,
+        "1976": 1,
+        "1977": 1,
+        "1979": 1,
+        "1984": 1,
+        "1985": 1,
+        "1986": 1,
+        "1987": 1,
+        "1990": 1
+      },
+      "by_decade": {
+        "2020s": 4631,
+        "2010s": 3288,
+        "2000s": 300,
+        "1990s": 37,
+        "1970s": 10,
+        "1980s": 8,
+        "1960s": 3,
+        "1910s": 2,
+        "1890s": 1,
+        "1940s": 1
+      },
+      "minimum": 1891,
+      "maximum": 2026,
+      "missing": 1,
+      "invalid": []
+    }
+  },
+  "taxonomy_coverage": {
+    "domains_without_documents": [
+      "communication",
+      "conflict",
+      "groups",
+      "methods",
+      "negotiation",
+      "stress"
+    ],
+    "constructs_without_documents": [
+      "ATTRIBUTION",
+      "COMMUNICATION",
+      "COMPETITION",
+      "COOPERATION",
+      "FIXED_PIE_BIAS",
+      "GROUPS",
+      "PSYCHOMETRICS",
+      "REACTIVE_DEVALUATION",
+      "REPLICATION",
+      "STRESS",
+      "TIME_PRESSURE"
+    ],
+    "domains_not_in_taxonomy": [],
+    "constructs_not_in_taxonomy": []
+  },
+  "duplicates": {
+    "source_ids": [],
+    "dois": [
+      {
+        "value": "https://doi.org/10.1007/978-3-319-54681-0",
+        "normalized_value": "10.1007/978-3-319-54681-0",
+        "count": 2,
+        "csv_rows": [
+          2001,
+          6196
+        ]
+      },
+      {
+        "value": "https://doi.org/10.1007/978-3-319-72604-5",
+        "normalized_value": "10.1007/978-3-319-72604-5",
+        "count": 2,
+        "csv_rows": [
+          6247,
+          6256
+        ]
+      }
+    ],
+    "file_sha256": []
+  },
+  "files": {
+    "acquired_files_verified": 0,
+    "missing_files": [],
+    "hash_mismatches": [],
+    "content_hashing_enabled": false
+  }
+}

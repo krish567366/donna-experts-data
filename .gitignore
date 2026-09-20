@@ -1,0 +1,5 @@
+phsycology/corpus/**/original.pdf
+phsycology/work/
+*.part
+__pycache__/
+

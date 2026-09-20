@@ -1,0 +1,27 @@
+domain,construct,query,priority
+trust_cooperation,TRUST,"trust cooperation psychology negotiation",5
+trust_cooperation,RECIPROCITY,"reciprocity cooperation social exchange psychology",5
+fairness,FAIRNESS,"fairness procedural justice inequity aversion psychology",5
+persuasion,REACTANCE,"psychological reactance persuasion autonomy",5
+power_status,POWER,"social power psychology negotiation",5
+power_status,STATUS,"status hierarchy prestige dominance psychology",5
+emotion,ANGER,"anger emotion decision making negotiation",5
+emotion,ANXIETY,"anxiety uncertainty risk decision making",5
+interpersonal,EMPATHY,"empathy perspective taking interpersonal psychology",5
+interpersonal,THEORY_OF_MIND,"theory of mind mental state inference adults",5
+persuasion,PERSUASION,"attitude change persuasion resistance psychology",5
+deception,DECEPTION,"deception detection credibility psychology meta analysis",5
+identity,IDENTITY,"social identity identity threat conflict psychology",5
+culture,FACE_SAVING,"face saving face threat honor dignity psychology",5
+conflict,ATTRIBUTION,"hostile attribution blame conflict psychology",5
+negotiation,FIXED_PIE_BIAS,"fixed pie bias negotiator cognition",5
+conflict,REACTIVE_DEVALUATION,"reactive devaluation proposal source conflict",5
+trust_cooperation,COOPERATION,"cooperation social dilemma public goods psychology",5
+trust_cooperation,COMPETITION,"competition mixed motive psychology",4
+stress,STRESS,"stress judgment decision making psychology",5
+stress,TIME_PRESSURE,"time pressure decision making negotiation",5
+methods,REPLICATION,"psychology replication reproducibility meta science",5
+methods,PSYCHOMETRICS,"psychometric validity reliability measurement invariance",4
+groups,GROUPS,"group decision making polarization groupthink psychology",4
+communication,COMMUNICATION,"interpersonal communication psycholinguistics social psychology",4
+
