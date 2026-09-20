@@ -1,0 +1,5 @@
+# Bulk corpus binaries are published as GitHub Release shards, not normal Git objects.
+negotiations/*_BULK/**/original.pdf
+negotiations/*_BULK/**/*.part
+negotiations/release_shards/
+
