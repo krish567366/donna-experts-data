@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "CRISIS-FBI-1990-GUIDELINES",
+    "url": "https://leb.fbi.gov/file-repository/archives/july-1990.pdf",
+    "status": "RETRY",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "CRISIS-FBI-1995-GUIDE",
+    "url": "https://leb.fbi.gov/file-repository/archives/october-1995.pdf",
+    "status": "RETRY",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "CRISIS-FBI-1996-COMMUNICATION",
+    "url": "https://leb.fbi.gov/file-repository/archives/may-1996.pdf",
+    "status": "RETRY",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "CRISIS-FBI-1999-COMMANDERS",
+    "url": "https://leb.fbi.gov/file-repository/archives/jan99leb.pdf",
+    "status": "RETRY",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "CRISIS-FBI-2002-TEAMS",
+    "url": "https://leb.fbi.gov/file-repository/archives/nov02leb.pdf",
+    "status": "RETRY",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "CRISIS-FBI-2003-POSITION",
+    "url": "https://leb.fbi.gov/file-repository/archives/oct03leb.pdf",
+    "status": "RETRY",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

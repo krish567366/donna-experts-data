@@ -1,0 +1,30 @@
+ORGANIZATION,SOURCE_COUNT,SOURCE_IDS
+BioNTech SE,1,PHARMA-PFIZER-BNTX-2020
+Concordia University,1,SCH-2008-011
+Dartmouth College,1,SCH-2008-011
+"Fitbit, Inc.",1,MA-FITBIT-GOOGLE-2019
+Gerald R. Ford Presidential Library,5,USGOV-PRES-0001; USGOV-PRES-0002; USGOV-PRES-0003; USGOV-PRES-0004; USGOV-PRES-0005
+International Labour Organization,1,LAB-ILO-CB-GUIDE-2015
+LinkedIn Corporation,1,MA-LINKEDIN-MSFT-2016
+London School of Economics and Political Science,1,BAR-2004-006
+National Archives and Records Administration,2,USGOV-NARA-0001; USGOV-NARA-0002
+National Archives and Records Administration / William J. Clinton Presidential Library,15,USGOV-NARA-0003; USGOV-NARA-0004; USGOV-NARA-0005; USGOV-NARA-0006; USGOV-NARA-0007; USGOV-NARA-0008; USGOV-NARA-0009; USGOV-NARA-0010; USGOV-NARA-0011; USGOV-NARA-0012; USGOV-NARA-0013; USGOV-NARA-0014; USGOV-NARA-0015; USGOV-NARA-0016; USGOV-NARA-0017
+National Bureau of Economic Research,1,SCH-1994-024
+National Venture Capital Association,2,VC-NVCA-CLIMATE-TS-2024; VC-NVCA-LIFESCI-TS-2022
+Northern Ireland Office,1,PEACE-BELFAST-1998-AGREEMENT
+Northwestern University,1,SCH-1999-016
+St. Catherine University,1,SCH-1994-024
+Stanford University,1,SCH-1994-024
+"Twitter, Inc.",1,MA-TWITTER-MUSK-2022
+U.S. Securities and Exchange Commission,4,MA-FITBIT-GOOGLE-2019; MA-LINKEDIN-MSFT-2016; MA-TWITTER-MUSK-2022; PHARMA-PFIZER-BNTX-2020
+United Nations,2,INT-UN-CHARTER-1945; INT-UN-VCLT-1969
+University of Arizona,1,BAR-2000-012
+University of Brescia,1,SCH-2009-021
+University of Essex,1,SCH-2009-021
+University of Liverpool,1,SCH-2006-049
+University of Oxford,1,SCH-1994-024
+University of Southampton,1,SCH-2006-049
+University of Toronto,1,BAR-2013-009
+Western University,1,SCH-2009-021
+World Trade Organization,4,INT-WTO-DSU-1994; INT-WTO-GATT-1994; INT-WTO-MARRAKESH-1994; INT-WTO-TRIPS-1994
+Yale University,1,SCH-2009-021
