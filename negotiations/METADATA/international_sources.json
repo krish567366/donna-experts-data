@@ -1,0 +1,11 @@
+[
+  {"organization":"United Nations","repository":"UN Official Document System","base_url":"https://docs.un.org/","method":"official search/export URL list","notes":"Use public document download URLs; do not automate around access controls."},
+  {"organization":"United Nations","repository":"UN Peacemaker","base_url":"https://peacemaker.un.org/","method":"official collection/export URL list","notes":"Peace agreements and mediation guidance."},
+  {"organization":"World Trade Organization","repository":"WTO Documents Online","base_url":"https://docs.wto.org/","method":"official search/export URL list","notes":"Trade negotiation and dispute-settlement documents."},
+  {"organization":"International Labour Organization","repository":"ILO publications","base_url":"https://www.ilo.org/publications","method":"official search/export URL list","notes":"Collective bargaining and social dialogue."},
+  {"organization":"OECD","repository":"OECD publications","base_url":"https://www.oecd.org/en/publications.html","method":"official search/export URL list","notes":"Public procurement, labor and regulatory negotiation."},
+  {"organization":"World Bank","repository":"Documents & Reports API","base_url":"https://search.worldbank.org/api/v2/wds","method":"native API implemented","notes":"Public records only; direct official PDF URLs."},
+  {"organization":"International Monetary Fund","repository":"IMF Publications","base_url":"https://www.imf.org/en/Publications","method":"official search/export URL list","notes":"Program negotiations, debt and policy agreements."},
+  {"organization":"European Union","repository":"EU Publications Office","base_url":"https://op.europa.eu/","method":"official API/export URL list","notes":"Treaty, labor, procurement and legislative negotiations."},
+  {"organization":"NATO","repository":"NATO official texts","base_url":"https://www.nato.int/cps/en/natohq/official_texts.htm","method":"official index/export URL list","notes":"Declarations, agreements and negotiation-related reports."}
+]
