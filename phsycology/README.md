@@ -17,6 +17,24 @@ python acquire.py verify
 
 Set `OPENALEX_API_KEY` for a sustained 10,000-file OpenAlex content download. Discovery can run without it. The downloader is checkpointed and safe to resume.
 
+## Parallel, shard-safe downloads
+
+`tools/sharded_download.py` partitions records by a stable hash of `SOURCE_ID`.
+Run one process per shard with the same shard count and a different zero-based index:
+
+```powershell
+0..7 | ForEach-Object -Parallel {
+  python tools/sharded_download.py --shard-count 8 --shard-index $_ --workers 4 --rate 2
+} -ThrottleLimit 8
+```
+
+Each process touches only its disjoint corpus paths and writes an atomic result CSV to
+`logs/shards/`; it never rewrites `psychology_sources.csv`. `--rate` is the aggregate
+request rate for one process, so eight processes at `--rate 2` can issue 16 requests
+per second. Retries honor `Retry-After`, downloads and sidecars use atomic renames,
+and credentials are removed from provenance URLs. Use `--limit 10` for a smoke test.
+Do not run the same shard index twice against the same corpus directory.
+
 ## Layout
 
 - `config/constructs.csv`: acquisition taxonomy and search streams
@@ -28,4 +46,3 @@ Set `OPENALEX_API_KEY` for a sustained 10,000-file OpenAlex content download. Di
 - `logs/failures.csv`: retryable and terminal failures
 
 PDFs must be placed in durable object storage or a Git-LFS service with adequate quota. Do not force-add them to normal Git.
-

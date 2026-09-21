@@ -1,0 +1,16 @@
+{
+  "query": "(\"negotiation\" OR \"bargaining\" OR \"conflict resolution\" OR persuasion OR \"interpersonal influence\" OR \"decision making\") AND (psychology OR psychological OR behavioral OR behavioural) AND open access[filter]",
+  "candidate_count": 30,
+  "oa_subset_count": 30,
+  "verified_pdf_count": 5,
+  "failed_download_count": 25,
+  "licenses": {
+    "CC BY": 25,
+    "CC BY-NC-ND": 5
+  },
+  "source_apis": [
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pmc&term=%28%22negotiation%22+OR+%22bargaining%22+OR+%22conflict+resolution%22+OR+persuasion+OR+%22interpersonal+influence%22+OR+%22decision+making%22%29+AND+%28psychology+OR+psychological+OR+behavioral+OR+behavioural%29+AND+open+access%5Bfilter%5D&retmax=30&sort=relevance",
+    "https://pmc-oa-opendata.s3.amazonaws.com/"
+  ],
+  "generated_utc": "2026-09-21T04:53:11Z"
+}

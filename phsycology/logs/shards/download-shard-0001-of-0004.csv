@@ -1,0 +1,16 @@
+SOURCE_ID,STATUS,FILE_PATH,FILE_SHA256,FILE_BYTES,ACQUIRED_AT,ERROR
+W1841503003,FAILED,corpus/W1841503003/original.pdf,,,,ValueError: response is not a PDF
+W2065691580,EXISTS,corpus/W2065691580/original.pdf,d7cd2aaeadbc47e66f1f2cd9d38b1762bcb60d941ecea698430475e15457b443,937974,,
+W2264814036,FAILED,corpus/W2264814036/original.pdf,,,,ValueError: response is not a PDF
+W2429118098,FAILED,corpus/W2429118098/original.pdf,,,,ValueError: response is not a PDF
+W2517573108,FAILED,corpus/W2517573108/original.pdf,,,,ValueError: response is not a PDF
+W2966532261,ACQUIRED,corpus/W2966532261/original.pdf,ee6e52fce4f22617c41f95a28a1bd07255729d730a3ba1608c500a65c11e82c6,1143205,2026-09-21T04:44:32.315691+00:00,
+W2989691584,ACQUIRED,corpus/W2989691584/original.pdf,65ed578fd70d1dd8f1cbb72ac8262e60c9f8bdf46c4cd251cf929c3666b36cc9,1068143,2026-09-21T04:44:30.032692+00:00,
+W2992941683,FAILED,corpus/W2992941683/original.pdf,,,,HTTPError: HTTP Error 403: Forbidden
+W3135215662,FAILED,corpus/W3135215662/original.pdf,,,,ValueError: response is not a PDF
+W3158414042,FAILED,corpus/W3158414042/original.pdf,,,,ValueError: response is not a PDF
+W3173114633,FAILED,corpus/W3173114633/original.pdf,,,,ValueError: response is not a PDF
+W3176386948,FAILED,corpus/W3176386948/original.pdf,,,,ValueError: response is not a PDF
+W3191131351,FAILED,corpus/W3191131351/original.pdf,,,,HTTPError: HTTP Error 404: Not Found
+W4376652803,EXISTS,corpus/W4376652803/original.pdf,f000949e0204efe92b38390b89da346394bfe86122e53a8389385e097363e02b,726760,,
+W4384119900,FAILED,corpus/W4384119900/original.pdf,,,,HTTPError: HTTP Error 403: Forbidden

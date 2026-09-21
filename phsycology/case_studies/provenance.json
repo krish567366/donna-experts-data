@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-21T04:47:02.569233+00:00",
+  "source_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+  "query": "OPEN_ACCESS:Y AND FIRST_PDATE:[2000 TO 2024] AND (TITLE:\"case report\" OR TITLE:\"case study\" OR TITLE:\"case series\") AND (TITLE:psychology OR TITLE:psychological OR TITLE:psychotherapy OR TITLE:psychiatric OR TITLE:psychosis OR TITLE:depression OR TITLE:anxiety OR TITLE:trauma OR TITLE:behavioral OR TITLE:behavioural OR TITLE:negotiation OR TITLE:conflict OR TITLE:mediation)",
+  "raw_records": 100,
+  "license_allowlist": [
+    "cc by",
+    "cc by-sa",
+    "cc-by",
+    "cc-by-sa",
+    "cc0",
+    "public domain"
+  ],
+  "eligible_records": 74,
+  "pdfs_acquired": 0,
+  "method": "Europe PMC core metadata; retained records with PMCID and explicit CC BY, CC BY-SA, CC0, or public-domain license; PDF magic and minimum-size checked; SHA-256 recorded."
+}
