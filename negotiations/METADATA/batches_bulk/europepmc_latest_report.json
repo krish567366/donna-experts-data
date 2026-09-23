@@ -1,0 +1,9 @@
+{
+  "completed_at": "2026-09-23T06:14:25.002857+00:00",
+  "target": 3000,
+  "verified_unique_total": 3000,
+  "processed_this_run": 2412,
+  "downloaded_this_run": 2357,
+  "failed_this_run": 55,
+  "batch_csv": "C:\\Users\\Krishna\\Documents\\Codex\\2026-09-20\\x20\\work\\donna-experts-data\\negotiations\\METADATA\\batches_bulk\\europepmc_20260923T051648Z.csv"
+}

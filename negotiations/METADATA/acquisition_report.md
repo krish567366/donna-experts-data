@@ -1,25 +1,23 @@
-# Acquisition report — initial parallel batch
+# Acquisition report — 10,000-PDF milestone
 
-Access date: 2026-09-20
+Completed: 2026-09-23
 
-- 45 acquired source records, all backed by actual downloaded documents
-- 41 PDFs and 4 complete native SEC HTML filings
-- 45 unique file hashes; zero validation issues
-- 22 U.S. government primary documents, including presidential memcons and negotiation transcripts
-- 13 international/commercial primary and institutional documents
-- 9 open scholarly papers
-- 1 signed peace agreement
-- 10 CIA targets recorded in a retry ledger after obsolete endpoints returned HTML rather than PDFs
-- 6 FBI crisis-negotiation PDFs recorded for retry after the official host refused automated retrieval
-- 14 scholarly candidates recorded as rejected/blocked rather than retaining wrappers or invalid files
+- 10,172 locally retained PDF files
+- 10,152 globally unique PDFs by SHA-256
+- 20 duplicate file copies identified without deleting source variants
+- 0 invalid PDF signatures
+- approximately 17.23 GB of source PDFs
+- 6,430 international/institutional PDFs
+- 3,038 open scholarly PDFs
+- 643 U.S. government/archive PDFs
+- 41 curated seed PDFs
+- 11 GitHub Release ZIP shards, each below the 2 GiB asset limit
 
-The first batch intentionally favors original files over URL pointers. Failed and restricted targets remain separate from the acquired-source master manifest.
+The canonical machine-readable index is `negotiation_bulk_sources.csv` with a
+Parquet equivalent. `METADATA/release_shard_index.csv` maps every unique PDF to
+its content-addressed member inside a release shard. `SHA256SUMS.txt` verifies
+the release assets themselves.
 
-## Immediate gaps / next priorities
-
-- CIA Reading Room acquisition through current document endpoints
-- FRUS volume PDFs and document-level memcons
-- broader non-English and counterparty-side diplomatic archives
-- procurement, legal settlement, labor agreement, pharma-license, and failed-deal records
-- licensed/restricted books and teaching cases as metadata only
-- deeper citation traversal from the nine scholarly seed papers
+All retained objects passed `%PDF-` signature validation and full SHA-256
+deduplication. Failed downloads, HTML wrappers, blocked endpoints, and sources
+without retrievable PDF bytes are excluded from the acquired corpus.

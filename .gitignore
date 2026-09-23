@@ -2,4 +2,7 @@
 negotiations/*_BULK/**/original.pdf
 negotiations/*_BULK/**/*.part
 negotiations/release_shards/
-
+negotiations/METADATA/logs/
+negotiations/scripts/__pycache__/
+fmcs_head.bin
+work_ebooks.html

@@ -39,6 +39,10 @@ QUERIES = (
     "negotiation", "bargaining", "mediation", "collective bargaining",
     "peace agreement", "dispute settlement", "trade negotiation",
     "contract negotiation", "procurement negotiation", "social dialogue",
+    "collective agreement", "arbitration", "conciliation", "consultation",
+    "trade agreement", "procurement", "contract management",
+    "conflict resolution", "peace process", "debt restructuring",
+    "stakeholder agreement", "settlement agreement", "labor dispute",
 )
 
 

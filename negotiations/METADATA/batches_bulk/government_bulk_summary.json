@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-09-21T05:18:04.508805+00:00",
+  "queued": 1153,
+  "pending": 0,
+  "acquired": 674,
+  "failed": 479,
+  "unique_acquired_sha256": 643,
+  "duplicate_rows": 31,
+  "bytes": 627838007
+}

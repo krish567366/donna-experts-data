@@ -1,0 +1,7 @@
+government_bulk_state.sqlite3
+government_bulk_state.sqlite3-*
+harvest_state.jsonl
+europepmc_state.jsonl
+europepmc_s3_state.jsonl
+*_checkpoint_*.csv
+international_bulk_checkpoint.jsonl

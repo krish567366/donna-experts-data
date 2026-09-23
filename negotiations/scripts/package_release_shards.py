@@ -10,6 +10,7 @@ import argparse
 import csv
 import hashlib
 import json
+import re
 import zipfile
 from pathlib import Path
 
@@ -30,18 +31,17 @@ def main() -> None:
     parser.add_argument("--max-bytes", type=int, default=1_800_000_000)
     parser.add_argument("--output", type=Path, default=ROOT / "release_shards")
     args = parser.parse_args()
-    manifests = sorted((ROOT / "METADATA" / "batches_bulk").glob("*.csv"))
-    records = []
-    for manifest in manifests:
-        with manifest.open(encoding="utf-8-sig", newline="") as handle:
-            records.extend(csv.DictReader(handle))
+    # Scan the actual corpus rather than relying on any one batch schema. Bulk
+    # harvesters intentionally use slightly different field casing, while the
+    # files themselves are the source of truth. Content-addressed bulk files
+    # already carry their SHA-256 as the filename; legacy originals are hashed.
     unique = {}
-    for row in records:
-        rel = (row.get("FILE_PATH") or "").replace("\\", "/")
-        path = (REPO / rel) if rel.startswith("negotiations/") else (ROOT / rel)
-        if not path.is_file() or path.read_bytes()[:5] != b"%PDF-":
+    for path in sorted(ROOT.rglob("*.pdf")):
+        if "release_shards" in path.parts or path.read_bytes()[:5] != b"%PDF-":
             continue
-        digest = row.get("SHA256") or sha256(path)
+        digest = path.stem.lower() if re.fullmatch(r"[0-9a-fA-F]{64}", path.stem) else sha256(path)
+        row = {"SOURCE_ID": "", "FILE_PATH": path.relative_to(REPO).as_posix(),
+               "SHA256": digest, "FILE_SIZE_BYTES": path.stat().st_size}
         unique.setdefault(digest, (path, row))
     args.output.mkdir(parents=True, exist_ok=True)
     shard_index = []
